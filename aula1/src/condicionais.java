@@ -10,8 +10,10 @@ public class condicionais {
         String str = "Fernanda";
         boolean bool = true;
 
-        if(bool) {
+        if (bool) {
             System.out.println("Verdadeiro");
+        } else if (str == "Fernanda") {
+            System.out.println("Fernanda");
         } else {
             System.out.println("False");
         }
